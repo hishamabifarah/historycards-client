@@ -27,6 +27,7 @@ import user from './pages/user';
 import timeline from './pages/timeline';
 import favorites from './pages/favorites';
 import landing from './pages/landing';
+import policy from './pages/policy';
 
 //Components
 import { Main as MainLayout } from './components/layout';
@@ -94,6 +95,7 @@ function App() {
                 <RouteWithLayout exact path='/account' component={profile} layout={MainLayout} />
                 <RouteWithLayout exact path='/favorites/:handle' component={favorites} layout={MainLayout} />
                 <RouteWithLayout exact path='/timelines/:timelineId' component={timeline} layout={MainLayout}/>
+                <Route exact path='/policy' component={policy} />
               </Switch>
             </div>
           </Router>
