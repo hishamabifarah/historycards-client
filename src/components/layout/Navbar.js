@@ -15,6 +15,7 @@ class Navbar extends Component {
                         <h2>History Cards</h2>
                     </div>
                     <div className="AppBarButtons">
+                        <Button color="inherit" component={Link} to="/home">Home</Button>
                         <Button color="inherit" component={Link} to="/login">Login</Button>
                         <Button color="inherit" component={Link} to="/signup">Signup</Button>
                     </div>
